@@ -102,7 +102,7 @@ export function sumFirstNumbers(N: number): number {
 export function getBanknoteList(amountOfMoney: number): Array<number> {
     const banknotes = [1000, 500, 100, 50, 20, 10, 5, 2, 1];
     const result: number[] = [];
-
+ 
     let remainingSum = amountOfMoney;
 
     for (const currentBanknote of banknotes) {
